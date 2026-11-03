@@ -104,6 +104,10 @@ in under a minute — otherwise it isn't done, it's just working on my machine.
        src="https://raw.githubusercontent.com/D4RKGEEK/D4RKGEEK/output/github-snake.svg">
 </picture>
 
+<br><br>
+
+[![What I'm listening to](https://spotify-github-profile.kittinanx.com/api/view?uid=31ildgflgg2mo7k6otuxlfr257ua&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false&hide_remaster=false)](https://github.com/kittinan/spotify-github-profile)
+
 <sub>Python · TypeScript · Rust · Node.js</sub>
 
 </div>
