@@ -1,0 +1,41 @@
+# Redraws the contribution snake.
+#
+# Platane/snk renders the contribution graph as a board and animates a snake
+# eating it. The SVG is written to the `output` branch rather than to `main`,
+# so a twice-daily regeneration does not fill the history of this repo with
+# commits that are only a changed image.
+name: snake
+
+on:
+  schedule:
+    # Twice a day is plenty: the graph only moves when you push.
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  draw:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Draw the snake
+        uses: Platane/snk@v3.5.0
+        id: snake
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          # One for each theme. GitHub serves whichever matches the reader,
+          # so the board is never a pale grid on a dark page.
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Push it to the output branch
+        uses: crazy-max/ghaction-github-pages@v5.0.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

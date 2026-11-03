@@ -95,6 +95,15 @@ in under a minute — otherwise it isn't done, it's just working on my machine.
 
 <div align="center">
 
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+          srcset="https://raw.githubusercontent.com/D4RKGEEK/D4RKGEEK/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)"
+          srcset="https://raw.githubusercontent.com/D4RKGEEK/D4RKGEEK/output/github-snake.svg">
+  <img alt="A snake eating this year's contribution graph"
+       src="https://raw.githubusercontent.com/D4RKGEEK/D4RKGEEK/output/github-snake.svg">
+</picture>
+
 <sub>Python · TypeScript · Rust · Node.js</sub>
 
 </div>
