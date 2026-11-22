@@ -6,31 +6,9 @@
 
 Writing software since 2017.
 
-<br>
-
-</div>
-
-**[blare](https://github.com/D4RKGEEK/blare)** — error alerting for Python and Node.
-Five hundred identical exceptions, one message. Zero dependencies, one spec, two languages.
-
-**[tempolight](https://github.com/D4RKGEEK/tempolight)** — music-reactive lighting that
-follows the beat and the bars, not the volume. Zero dependencies, runs on a Pi.
-
-**[market data](https://github.com/D4RKGEEK/IPOScraper)** — scrapers and APIs that turn
-messy public filings into something you can query.
-
-Two more unpublished. They go public when they pass their own tests.
-
-<br>
-
-`Python` `TypeScript` `Rust` `Postgres` `Redis` `Cloudflare` `Docker` `Linux`
-
-<br>
-
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=D4RKGEEK&show_icons=true&hide_title=true&hide=issues&count_private=true&include_all_commits=true&theme=github_dark&hide_border=true&bg_color=0D1117&icon_color=58A6FF&text_color=C9D1D9" alt="" />
-<img height="160" src="https://streak-stats.demolab.com?user=D4RKGEEK&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=21262D&ring=58A6FF&fire=F78166&currStreakLabel=58A6FF" alt="" />
+[blare](https://github.com/D4RKGEEK/blare) ·
+[tempolight](https://github.com/D4RKGEEK/tempolight) ·
+[market data](https://github.com/D4RKGEEK/IPOScraper)
 
 <br><br>
 
